@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace SmacCart.Men
+{
+    public partial class Men : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/M_Clothing.aspx");
+        }
+
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/Footware.aspx");
+        }
+        protected void deals_new_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/W_Footware.aspx");
+        }
+      
+    }
+}
